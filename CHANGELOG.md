@@ -1,4 +1,4 @@
-## [0.0.1] - 2025-08-04
+## [1.0.0] - 2025-08-04
 
 ### ✨ Added
 - Initial release of `glassmorphism_ui`.
