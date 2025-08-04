@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:glassmorphism_ui/widgets/glass_container.dart';
+import 'package:glossy_morphism/widgets/glass_container.dart';
 
 class GlassEffect extends StatefulWidget {
   const GlassEffect({super.key});

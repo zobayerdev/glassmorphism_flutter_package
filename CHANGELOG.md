@@ -1,7 +1,7 @@
 ## [1.0.0] - 2025-08-04
 
 ### ✨ Added
-- Initial release of `glassmorphism_ui`.
+- Initial release of `glossy_morphism`.
 - `GlassContainer` widget with:
     - Blur effect
     - Opacity control

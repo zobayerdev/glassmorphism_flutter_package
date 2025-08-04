@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:glassmorphism_ui/glassmorphism_ui.dart';
+import 'package:glossy_morphism/widgets/glass_container.dart';
 
 void main() {
   testWidgets('GlassContainer renders with child text', (WidgetTester tester) async {

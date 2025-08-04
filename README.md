@@ -1,4 +1,4 @@
-# 🌫️ glassmorphism_ui
+# 🌫️ glossy_morphism
 
 A highly customizable Flutter widget to create beautiful glass morphism (frosted glass) UI effects with blur, transparency, shadows, and border control.
 
@@ -22,7 +22,7 @@ Add this line to your `pubspec.yaml` under `dependencies`:
 
 ```yaml
 dependencies:
-  glassmorphism_ui:
+  glossy_morphism:
     git:
       url: https://github.com/your_username/glassmorphism_ui.git
 ```
