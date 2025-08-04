@@ -38,3 +38,6 @@ dependencies:
 | `borderColor`  | `Colors.white.withOpacity(0.2)` | ✅ Yes           |
 | `borderWidth`  | `1.5`                           | ✅ Yes           |
 | `shadow`       | Default soft black shadow       | ✅ Yes           |
+
+Refference Image
+<img width="20%" height="20%" alt="glass_effect" src="https://github.com/user-attachments/assets/6e189eff-bba2-49c8-ab07-e84296f08f99" />
