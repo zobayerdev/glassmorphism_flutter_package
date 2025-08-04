@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.2] - 2025-08-04
+
+### 🛠 Fixed
+- Replaced deprecated `withOpacity()` with `withAlpha()` to fix static analysis warnings and ensure compatibility with latest Dart versions.
+
+### ✅ Stable
+- No breaking changes introduced.
+- Maintains all previous functionality and customization options.
+
+---
+
 ## [1.0.1] - 2025-08-04
 
 ### 🔧 Improved

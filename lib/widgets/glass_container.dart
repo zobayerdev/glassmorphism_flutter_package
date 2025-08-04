@@ -69,7 +69,6 @@ class GlassContainer extends StatelessWidget {
   /// Default is `true`.
   final bool useGradient;
 
-  /// Creates a GlassContainer widget with optional customization.
   const GlassContainer({
     Key? key,
     this.blur = 15.0,
@@ -91,8 +90,8 @@ class GlassContainer extends StatelessWidget {
         ? BoxDecoration(
       gradient: LinearGradient(
         colors: [
-          Colors.white.withOpacity(0.25),
-          Colors.white.withOpacity(0.05),
+          Colors.white.withAlpha((0.25 * 255).toInt()),
+          Colors.white.withAlpha((0.05 * 255).toInt()),
         ],
         begin: Alignment.topLeft,
         end: Alignment.bottomRight,
@@ -101,29 +100,31 @@ class GlassContainer extends StatelessWidget {
       boxShadow: shadow ??
           [
             BoxShadow(
-              color: Colors.black.withOpacity(0.1),
+              color: Colors.black.withAlpha((0.1 * 255).toInt()),
               blurRadius: 10,
               offset: const Offset(0, 5),
             ),
           ],
       border: Border.all(
-        color: borderColor ?? Colors.white.withOpacity(0.2),
+        color: (borderColor ?? Colors.white)
+            .withAlpha((0.2 * 255).toInt()),
         width: borderWidth,
       ),
     )
         : BoxDecoration(
-      color: color.withOpacity(opacity),
+      color: color.withAlpha((opacity * 255).toInt()),
       borderRadius: borderRadius,
       boxShadow: shadow ??
           [
             BoxShadow(
-              color: Colors.black.withOpacity(0.1),
+              color: Colors.black.withAlpha((0.1 * 255).toInt()),
               blurRadius: 10,
               offset: const Offset(0, 5),
             ),
           ],
       border: Border.all(
-        color: borderColor ?? Colors.white.withOpacity(0.2),
+        color: (borderColor ?? Colors.white)
+            .withAlpha((0.2 * 255).toInt()),
         width: borderWidth,
       ),
     );
