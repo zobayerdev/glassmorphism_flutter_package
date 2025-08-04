@@ -1,6 +1,6 @@
 name: glossy_morphism
 description: A Flutter package that provides a glass (frosted) effect UI container. You can use it your apps.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/zobayerdev/glassmorphism_flutter_package
 
 environment:
